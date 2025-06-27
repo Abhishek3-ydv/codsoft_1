@@ -1,0 +1,140 @@
+html{
+    background-color:rgb(0, 10, 33);
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    scroll-behavior:smooth;
+}
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+nav{
+    display:flex;
+    justify-content:space-around;
+    background-color:rgb(4, 27, 82);
+}
+h1{
+    font-size:2rem;
+    text-align:center;
+    margin-bottom:10px;
+}
+#leftnav{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:25%;
+
+}
+#rightnav{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    width:65%;
+}
+
+#logo{
+    margin:20px 0 0 67px;
+    border:rgb(3, 59, 75) solid ;
+    border-radius:100%;
+    height:140px;
+    width:140px;
+    box-shadow:rgb(18, 1, 0.7);
+}
+header>nav>div>ul{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+header>nav>div>ul>li{
+    font-size:1.2em;
+    list-style:none;
+    margin:0 25px;
+}
+header>nav>div>ul>li>a{
+    color:white;
+    text-decoration:none;
+}
+header>nav>div>ul>li>a:hover{
+    cursor:pointer;
+    font-size:1.1rem;
+}
+#about{
+    margin-top:10px;
+    color:rgb(202, 179, 148);
+    text-decoration:underline;
+}
+main{
+    display:flex;
+    justify-content:space-evenly;
+}
+.left{
+    width:50%;
+    margin-top:50px;
+    margin-left:40px;
+    margin-right:10px;
+}
+.right{
+    width:50%;
+}
+#bio{
+    font-size:2.3rem;
+}
+
+#skill{
+   
+    color:yellowgreen;
+}
+#me{
+    height:500px;
+    width:600px;
+    border-radius:10px;
+    margin:10px;
+}
+section > ul > li{
+    font-size:2.3rem;
+    margin-left:90px;
+    list-style-type:circle;
+}
+#skills{
+    margin-top:20px;
+    color:aquamarine;
+    text-decoration:underline;
+}
+#project{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-bottom:40px;
+}
+#leftpro{
+    margin:40px 0 0 50px;
+    width:20%;
+}
+#rightpro{
+    margin:83px 0 0 50px;
+    width:60%;
+    min-width:250px;
+}
+#calimg{
+    width:200px;
+    height:240px;
+    padding-left:40px;
+    padding-top:10px;
+}
+#resume{
+    text-align:center;
+    padding:20px 10px 30px 100px;
+    margin-bottom:20px;
+}
+#pdf{
+    font-size:1.4em;
+    color:red;
+}
+#contact{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:20px;
+}
